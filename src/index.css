@@ -1,0 +1,15 @@
+@font-face{
+  font-family: 'Iransans';
+  src: local('Iransans'),url(./fonts/IranianSans.ttf) format('truetype')
+}
+body {
+  margin: 0;
+  font-family: Iransans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
